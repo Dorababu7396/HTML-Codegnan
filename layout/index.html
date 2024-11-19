@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow example</title>
+
+    <style>
+        .styled-button{
+            background-color: aquamarine;
+            color: azure;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .styled-button:hover{
+          
+          
+            background-color: red;
+        } 
+        .styled-button:focus{
+            background-color: blueviolet;
+        } 
+        .styled-button:active{
+            background-color: blue;
+        } 
+        .styled-button:visited{
+            background-color: violet;
+        } 
+         
+
+
+        .container{
+            display: flex;
+            width: 1000px;
+            height: 50px;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .container1{
+            display: flex;
+            width: 1000px;
+            height: 100px;
+            border: 1px solid rebeccapurple;
+            align-items: center;
+            justify-content:space-around;
+            flex-wrap: nowrap;
+        }
+        .container2{
+            display: flex;
+            height: 100px;
+            border: 1px solid brown;
+            align-items: end;
+            justify-content: space-between;
+        }
+        .container3{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .container4{
+            display: flex;
+            justify-content:start;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color: aqua;">balu</div>
+        <div style="background-color: red;">Dora</div>
+        <div style="background-color: rgb(0, 255, 47);">Mani</div>
+        <div style="background-color: rgb(55, 0, 255);">Mani1</div>
+        <div style="background-color: rgb(0, 255, 0);">Mani2</div>
+        <div style="background-color: rgb(232, 228, 236);">Mani3</div>
+        <div style="background-color: rgb(21, 54, 54);">Mani4</div>
+    </div>
+
+    <hr>
+    <div class="container1">
+        <div style="background-color: aqua;">kiran</div>
+        <div style="background-color: lightblue;">gowtham</div>
+        <div style="background-color: lightpink;">Naveen</div>
+    </div>
+
+    <hr>
+    <div class="container2">
+        <div>prasad</div>
+        <div>ravi</div>
+        <div>pavan</div>
+    </div>
+
+    <hr>
+    <div class="container3">
+        <div>akash</div>
+        <div>surya</div>
+        <div>veera</div>
+    </div>
+
+    <hr>
+    <div class="container4">
+        <div>venky</div>
+        <div>karthik</div>
+        <div>bhanu</div>
+    </div>
+    
+</body>
+
+<body>
+    <button class = "styled-button"> Hello</button>
+</body>
+</html>
